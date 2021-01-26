@@ -1,6 +1,3 @@
-/* Polyfills */
-import {rIC, cIC} from 'idlize/idle-callback-polyfills.mjs';
-
 /* Vendors */
 import {IdleQueue} from 'idlize/IdleQueue.mjs'; /* Includes cIC, rIC polyfills */
 
