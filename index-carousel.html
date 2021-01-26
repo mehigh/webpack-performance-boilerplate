@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+
+	<script type="module" src="/dist/js/main.modern.js"></script>
+	
+	<style>
+		.carousel {
+			color: #999;
+		}
+		
+		.carousel.active {
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<a class="lazy-import2" href="#">Load import2.</a>
+	<a href="#" class="append-carousel">Append a div.carousel</a>
+	<div class="carousel">preexisting carousel</div>
+  <script nomodule defer src="/dist/js/main-legacy.es5.js"></script>
+</body>
+</html>

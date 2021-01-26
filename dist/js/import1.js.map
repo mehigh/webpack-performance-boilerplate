@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-esnext-boilerplate/./src/js/examples/import-1.js"],"names":["import1","dep1"],"mappings":";;;kGAEaA,EAAU,a,4DAAcC","file":"import1.js","sourcesContent":["import { dep1 } from './dependency-1';\n\nexport const import1 = `imported: ${ dep1 }`;\n"],"sourceRoot":""}

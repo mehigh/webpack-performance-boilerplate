@@ -1,0 +1,11 @@
+{
+  "publicPath": "/",
+  "publicDir": "dist",
+	"publicStaticPath": "/dist/",
+	"modernJsEntries": {
+		"main": "./src/js/main.js"
+	},
+	"legacyJsEntries": {
+		"main-legacy": "./src/js/main-legacy.js"
+	}
+}
